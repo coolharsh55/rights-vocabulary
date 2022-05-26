@@ -1,0 +1,442 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix : <https://w3id.org/eu-charter-fundamental-rights#> .
+
+:Charter a skos:Concept ;
+	skos:prefLabel "Charter Of Fundamental Rights"@en ;
+	skos:altLabel "Charter of Fundamental Rights Of The European Union"@en ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:FundamentalRightsThesauri a skos:ConceptScheme ;
+	skos:prefLabel "Thesauri of Fundamental Rights"@en ;
+	skos:hasTopConcept :T1-Dignity, :T2-Freedoms, :T3-Equality, 
+		:T4-Solidarity, :T5-CitizensRights, :T6-Justice, 
+		:T7-InterpretationAndApplication .
+
+:T1-Dignity a skos:Concept ;
+	skos:prefLabel "Dignity"@en ;
+	skos:altLabel "Title I"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A1-HumanDignity a skos:Concept ;
+	skos:prefLabel "Human dignity"@en ;
+	skos:altLabel "Article 1"@en ;
+	skos:broader :T1-Dignity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A2-RightToLife a skos:Concept ;
+	skos:prefLabel "Right to life"@en ;
+	skos:altLabel "Article 2"@en ;
+	skos:broader :T1-Dignity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A3-RightToIntegrityOfPerson a skos:Concept ;
+	skos:prefLabel "Right to the integrity of the person"@en ;
+	skos:altLabel "Article 3"@en ;
+	skos:broader :T1-Dignity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A4-ProhibitionOfTortureDegradationPunishment a skos:Concept ;
+	skos:prefLabel "Prohibition of torture and inhuman or degrading treatment or punishment"@en ;
+	skos:altLabel "Article 4"@en ;
+	skos:broader :T1-Dignity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A5-ProhibitionOfSlaveryForcedLabour a skos:Concept ;
+	skos:prefLabel "Prohibition of slavery and forced labour"@en ;
+	skos:altLabel "Article 5"@en ;
+	skos:broader :T1-Dignity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T2-Freedoms a skos:Concept ;
+	skos:prefLabel "Freedoms"@en ;
+	skos:altLabel "Title II"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A6-RightToLiberySecurity a skos:Concept ;
+	skos:prefLabel "Right to liberty and security"@en ;
+	skos:altLabel "Article 6"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A7-RespectPrivateFamilyLife a skos:Concept ;
+	skos:prefLabel "Respect for private and family life"@en ;
+	skos:altLabel "Article 7"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A8-ProtectionOfPersonalData a skos:Concept ;
+	skos:prefLabel "Protection of personal data"@en ;
+	skos:altLabel "Article 8"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A9-RightToMarryFoundFamily a skos:Concept ;
+	skos:prefLabel "Right to marry and right to found a family"@en ;
+	skos:altLabel "Article 9"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A10-FreedomOfThoughtConscienceReligion a skos:Concept ;
+	skos:prefLabel "Freedom of thought, conscience and religion"@en ;
+	skos:altLabel "Article 10"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A11-FreedomOfExpressionInformation a skos:Concept ;
+	skos:prefLabel "Freedom of expression and information"@en ;
+	skos:altLabel "Article 11"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A12-FreedomOfAssemblyAssociation a skos:Concept ;
+	skos:prefLabel "Freedom of assembly and of association"@en ;
+	skos:altLabel "Article 12"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A13-FreedomOfArtsSciences a skos:Concept ;
+	skos:prefLabel "Freedom of the arts and sciences"@en ;
+	skos:altLabel "Article 13"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A14-RightToEducation a skos:Concept ;
+	skos:prefLabel "Right to education"@en ;
+	skos:altLabel "Article 14"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A15-FreedomToChooseOccuprationEngageWork a skos:Concept ;
+	skos:prefLabel "Freedom to choose an occupation and right to engage in work"@en ;
+	skos:altLabel "Article 15"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A16-FreedomToConductBusiness a skos:Concept ;
+	skos:prefLabel "Freedom to conduct a business"@en ;
+	skos:altLabel "Article 16"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A17-RightToProperty a skos:Concept ;
+	skos:prefLabel "Right to property"@en ;
+	skos:altLabel "Article 17"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A18-RightToAsylum a skos:Concept ;
+	skos:prefLabel "Right to asylum"@en ;
+	skos:altLabel "Article 18"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A19-ProtectionRemovalExpulsionExtradition a skos:Concept ;
+	skos:prefLabel "Protection in the event of removal, expulsion or extradition"@en ;
+	skos:altLabel "Article 19"@en ;
+	skos:broader :T2-Freedoms ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T3-Equality a skos:Concept ;
+	skos:prefLabel "Equality"@en ;
+	skos:altLabel "Title III"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A20-EqualityBeforeLaw a skos:Concept ;
+	skos:prefLabel "Equality before the law"@en ;
+	skos:altLabel "Article 20"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A21-NonDiscrimination a skos:Concept ;
+	skos:prefLabel "Non-discrimination"@en ;
+	skos:altLabel "Article 21"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A22-CulturalReligiousLinguisticDiversity a skos:Concept ;
+	skos:prefLabel "Cultural, religious and linguistic diversity"@en ;
+	skos:altLabel "Article 22"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A23-EqualityBetweenWomenMen a skos:Concept ;
+	skos:prefLabel "Equality between women and men"@en ;
+	skos:altLabel "Article 23"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A24-RightsOfChild a skos:Concept ;
+	skos:prefLabel "The rights of the child"@en ;
+	skos:altLabel "Article 24"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A25-RightsOfElderly a skos:Concept ;
+	skos:prefLabel "The rights of the elderly"@en ;
+	skos:altLabel "Article 25"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A26-IntegrationOfPersonsWithDisabilities a skos:Concept ;
+	skos:prefLabel "Integration of persons with disabilities"@en ;
+	skos:altLabel "Article 26"@en ;
+	skos:broader :T3-Equality ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T4-Solidarity a skos:Concept ;
+	skos:prefLabel "Solidarity"@en ;
+	skos:altLabel "Title IV"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A27-WorkersRightToInformationConsultation a skos:Concept ;
+	skos:prefLabel "Workers' right to information and consultation within the undertaking"@en ;
+	skos:altLabel "Article 27"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A28-RightOfCollectiveBargainingAction a skos:Concept ;
+	skos:prefLabel "Right of collective bargaining and action"@en ;
+	skos:altLabel "Article 28"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A29-RightOfAccessToPlacementServices a skos:Concept ;
+	skos:prefLabel "Right of access to placement services"@en ;
+	skos:altLabel "Article 29"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A30-ProtectionUnjustifiedDismissal a skos:Concept ;
+	skos:prefLabel "Protection in the event of unjustified dismissal"@en ;
+	skos:altLabel "Article 30"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A31-FairJustWorkingConditions a skos:Concept ;
+	skos:prefLabel "Fair and just working conditions"@en ;
+	skos:altLabel "Article 31"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A32-ProhibitionOfChildLabourProtectionofYoungAtWork a skos:Concept ;
+	skos:prefLabel "Prohibition of child labour and protection of young people at work"@en ;
+	skos:altLabel "Article 32"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A33-FamilyProfessionalLife a skos:Concept ;
+	skos:prefLabel "Family and professional life"@en ;
+	skos:altLabel "Article 33"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A34-SocialSecuritySocialAssistance a skos:Concept ;
+	skos:prefLabel "Social security and social assistance"@en ;
+	skos:altLabel "Article 34"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A35-Healthcare a skos:Concept ;
+	skos:prefLabel "Health care"@en ;
+	skos:altLabel "Article 35"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A36-AccessToServicesOfGeneralEconomicInterest a skos:Concept ;
+	skos:prefLabel "Access to services of general economic interest"@en ;
+	skos:altLabel "Article 36"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A37-EnvironmentalProtection a skos:Concept ;
+	skos:prefLabel "Environmental protection"@en ;
+	skos:altLabel "Article 37"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A38-ConsumerProtection a skos:Concept ;
+	skos:prefLabel "Consumer protection"@en ;
+	skos:altLabel "Article 38"@en ;
+	skos:broader :T4-Solidarity ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T5-CitizensRights a skos:Concept ;
+	skos:prefLabel "Citizen's Rights"@en ;
+	skos:altLabel "Title V"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A39-RightToVoteStandAsCanditateEUParliament a skos:Concept ;
+	skos:prefLabel "Right to vote and to stand as a candidate at elections to the European Parliament"@en ;
+	skos:altLabel "Article 39"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A40-RightToVoteStandAsCandidateMunicipalElections a skos:Concept ;
+	skos:prefLabel "Right to vote and to stand as a candidate at municipal elections"@en ;
+	skos:altLabel "Article 40"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A41-RightToGoodAdministration a skos:Concept ;
+	skos:prefLabel "Right to good administration"@en ;
+	skos:altLabel "Article 41"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A42-RightToAccessToDocuments a skos:Concept ;
+	skos:prefLabel "Right of access to documents"@en ;
+	skos:altLabel "Article 42"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A43-EuropeanOmbudsman a skos:Concept ;
+	skos:prefLabel "European Ombudsman"@en ;
+	skos:altLabel "Article 43"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A44-RightToPetition a skos:Concept ;
+	skos:prefLabel "Right to petition"@en ;
+	skos:altLabel "Article 44"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A45-FreedomOfMovementAndResidence a skos:Concept ;
+	skos:prefLabel "Freedom of movement and of residence"@en ;
+	skos:altLabel "Article 45"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A46-DiplomaticConsularProtection a skos:Concept ;
+	skos:prefLabel "Diplomatic and consular protection"@en ;
+	skos:altLabel "Article 46"@en ;
+	skos:broader :T5-CitizensRights ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T6-Justice a skos:Concept ;
+	skos:prefLabel "Justice"@en ;
+	skos:altLabel "Title VI"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A47-RightToEffectiveRemedyFairTrial a skos:Concept ;
+	skos:prefLabel "Right to an effective remedy and to a fair trial"@en ;
+	skos:altLabel "Article 47"@en ;
+	skos:broader :T6-Justice ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A48-PresumptionOfInnocenceRightOfDefence a skos:Concept ;
+	skos:prefLabel "Presumption of innocence and right of defence"@en ;
+	skos:altLabel "Article 48"@en ;
+	skos:broader :T6-Justice ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A49-PrinciplesOfLegalityProportionalityCriminalOffencesPenalties a skos:Concept ;
+	skos:prefLabel "Principles of legality and proportionality of criminal offences and penalties"@en ;
+	skos:altLabel "Article 49"@en ;
+	skos:broader :T6-Justice ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A50-RightNotBeTriedPunishedTwiceForSameCriminalOffence a skos:Concept ;
+	skos:prefLabel "Right not to be tried or punished twice in criminal proceedings for the same criminal offence"@en ;
+	skos:altLabel "Article 50"@en ;
+	skos:broader :T6-Justice ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:T7-InterpretationAndApplication a skos:Concept ;
+	skos:prefLabel "General Provisions Governing The Interpretation And Application Of The Charter"@en ;
+	skos:altLabel "Title VII"@en ;
+	skos:broader :Charter ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A51-FieldOfApplication a skos:Concept ;
+	skos:prefLabel "Field of application"@en ;
+	skos:altLabel "Article 51"@en ;
+	skos:broader :T7-InterpretationAndApplication ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A52-ScopeInterpretationOfRightsPrinciples a skos:Concept ;
+	skos:prefLabel "Scope and interpretation of rights and principles"@en ;
+	skos:altLabel "Article 52"@en ;
+	skos:broader :T7-InterpretationAndApplication ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A53-LevelOfProtection a skos:Concept ;
+	skos:prefLabel "Level of protection"@en ;
+	skos:altLabel "Article 53"@en ;
+	skos:broader :T7-InterpretationAndApplication ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
+
+:A54-ProhibitionOfAbuseOfRights a skos:Concept ;
+	skos:prefLabel "Prohibition of Abuse of Rights"@en ;
+	skos:altLabel "Article 54"@en ;
+	skos:broader :T7-InterpretationAndApplication ;
+	skos:inScheme :FundamentalRightsThesauri ;
+	dct:source <http://data.europa.eu/eli/treaty/char_2012/oj> .
