@@ -7,6 +7,8 @@ This is an ongoing effort to provide *Rights* as provided for in EU law in the f
 
 For now, it only provides a thesauri of rights from [EU Charter of Fundamental Rights](http://data.europa.eu/eli/treaty/char_2012/oj), based on modelling each article's title as an independent concept, and structuring them all together within a SKOS hierarchical taxonomy.
 
+![overview of rights](rights.png)
+
 *   Thesauri of Fundamental Rights
     *   Citizen's Rights
         *   Diplomatic and consular protection
